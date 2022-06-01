@@ -7,7 +7,7 @@
 #include <iostream>
 
 class Tree {
-private:
+ private:
     struct Node {
         char data;
         std::vector<Node*> sheet;
@@ -50,7 +50,7 @@ private:
         }
     }
 
-public:
+ public:
     explicit Tree(std::vector<char> v) {
         root = new Node;
         root->data = '*';
